@@ -10,20 +10,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins&family=Rubik+Pixels&family=Source+Serif+Pro:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
+    <main class="background">
     <div class="title">
     <h1 id="text">Tic-Tac-Toe</h1>
-    <button id="reset">Reset</button>
-    <div id="table">
-        <div class="square" id="0"></div>
-        <div class="square" id="1"></div>
-        <div class="square" id="2"></div>
-        <div class="square" id="3"></div>
-        <div class="square" id="4"></div>
-        <div class="square" id="5"></div>
-        <div class="square" id="6"></div>
-        <div class="square" id="7"></div>
-        <div class="square" id="8"></div>
-    </div>
 </div>
+    <div class="display">
+        Player <span class="display-player playerX">X</span>'s turn
+    </div>
+    <div id="board">
+        <div class="cell" id="0"></div>
+        <div class="cell" id="1"></div>
+        <div class="cell" id="2"></div>
+        <div class="cell" id="3"></div>
+        <div class="cell" id="4"></div>
+        <div class="cell" id="5"></div>
+        <div class="cell" id="6"></div>
+        <div class="cell" id="7"></div>
+        <div class="cell" id="8"></div>
+    </div>
+    <div class="display announcer hide"></div>
+    <div class="controls">
+        <button id="reset">Reset</button>
+    </div>
+</main>
     <script src="main.js"></script>
 </body>
